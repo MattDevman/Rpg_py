@@ -53,6 +53,7 @@ Monstro: {mob_sp}                Hp: {Zombies.z_bomber.hp}
                         print(f'''
 Monstro: {mob_sp}                Hp: {Zombies.z_fantasma.hp}
                         ''')
+                
 
 class Mecanica(Batalha):
         def Luta_start(self):
@@ -66,4 +67,4 @@ class Mecanica(Batalha):
                 ''')
 
 
-Mecanica.Luta_start(Batalha)
+
